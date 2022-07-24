@@ -26,7 +26,7 @@ if choice == '1':
             if user_turn == 'r':
                 user_choice = "Rock"
                 comp_choice = random.choice(game_list)         # computer generate random choice from game_list
-                if comp_choice == "Rock":                      # math randome generated choice to specific name to compare later
+                if comp_choice == "Rock":                      # match randome generated choice to specific name to compare later
                     comp_turn = 'r'
                 elif comp_choice == "Paper":
                     comp_turn = "p"
